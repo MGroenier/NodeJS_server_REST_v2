@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <h1>A form to upload a new Capture</h1>
+        <p>Using the form below you'll be able to upload a new Capture and save it to the database.</p>
+        
+        <form enctype="multipart/form-data" action="/api/captures" method="post">
+            Capture title:<br>
+            <input type="text" name="title" placeholder="Title" value="">
+            <br>
+            <br>
+            File:<br>
+            <input type="file" name="capture-file">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        
+    </body>
+</html>

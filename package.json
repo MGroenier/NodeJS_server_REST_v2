@@ -1,0 +1,12 @@
+{
+  "name": "CapNow",
+  "version": "0.0.1",
+  "description": "Capture the Now",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "mongoose": "*",
+    "multer": "^1.2.0"
+  }
+}
